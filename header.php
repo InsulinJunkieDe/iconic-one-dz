@@ -62,7 +62,7 @@
 <?php if( get_theme_mod( 'iconic_one_social_activate' ) == '1' and function_exists("dz_social_stats")) { ?>
 		<div class="socialmedia">
 <span id="sfacebook">
-	<a title="InsulinJunkie@Facebook" rel="nofollow"  href="<?php echo get_theme_mod( 'facebook_url', 'default_value' ); ?>" target="_blank" onclick="window.open('/likeme', '', 'width=320, height=320'); return false;">
+	<a title="InsulinJunkie@Facebook" rel="nofollow"  href="<?php echo get_theme_mod( 'facebook_url', 'default_value' ); ?>" target="_blank">
 		<i class="fa fa-facebook fa-2x"></i>
 		<span>Liken <span><?=dz_social_stats('facebook')?></span></span>
 	</a>
