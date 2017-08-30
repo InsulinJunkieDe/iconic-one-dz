@@ -59,7 +59,7 @@
 		<div class="themonic-logo">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img width="320" height="109" src="<?php $r = wp_upload_dir(); echo $r['baseurl'].'/2015/03/InsulinJunkieLogo-660x225.png' ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
 		</div>
-<?php if( get_theme_mod( 'iconic_one_social_activate' ) == '1') { ?>
+<?php if( get_theme_mod( 'iconic_one_social_activate' ) == '1' and function_exists("dz_social_stats")) { ?>
 		<div class="socialmedia">
 <span id="sfacebook">
 	<a title="InsulinJunkie@Facebook" rel="nofollow"  href="<?php echo get_theme_mod( 'facebook_url', 'default_value' ); ?>" target="_blank" onclick="window.open('/likeme', '', 'width=320, height=320'); return false;">
