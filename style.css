@@ -37,7 +37,7 @@ article.format-quote  div.entry-content:before {
 }
 
 article.format-quote  div.entry-content p {
-  padding: 0; 
+  padding: 0;
   margin:0;
   display: inline;
   font-size: 1.5em;
@@ -58,7 +58,7 @@ article.format-quote  div.entry-summary:before {
 }
 
 article.format-quote  div.entry-summary p {
-  padding: 0; margin:0;    display: inline; 
+  padding: 0; margin:0;    display: inline;
   font-size: 1.5em;
 }
 
@@ -226,20 +226,20 @@ display: inline-block;
   height: auto;
 }
 
-	
+
 		#stwitter {background-color: #55acee}
 		#sfacebook {background-color: #3b5998}
     #sinstagram {background-color: #e1306c}
 		#srss {background-color: #FA9B39}
-		
+
 		.socialmedia > span {
   color: white;
   display: inline-block;
   border-radius: 4px;
   padding: 2px;
   margin-left: 10px;
-  
-  
+
+
 }
 .socialmedia a {
   padding: 0 5px;
@@ -249,7 +249,7 @@ display: inline-block;
   text-decoration: none;
 
 }
-	
+
 .socialmedia > span > a > span {
   display: inline-block;
   position: relative;
