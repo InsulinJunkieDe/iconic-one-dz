@@ -1,0 +1,269 @@
+/*
+Theme Name:     Iconic One - InsulinJunkie
+Theme URI:      http://insulinjunkie.de/
+Description:    Iconic One - Child Theme: InsulinJunkie
+Author:         Matthias Ismail
+Author URI:     http://insulinjunkie.de/
+Template:       iconic-one
+Version:        1.0
+*/
+
+.edit-link {
+  background-color: #00A1E0;
+  background-image: none;
+  border: 1px solid #f3f3f3;
+  border-radius: 2px;
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  margin-left: 5px;
+  padding: 2px 5px;
+  font-size: 10px;
+}
+.entry-meta > span.edit-link a {
+  color: #fff;
+}
+
+.wp-caption  {padding: 0}
+
+div.wp-caption.alignright {padding-left:15px;}
+img.alignright,img.alignleft { margin-top: 0px}
+
+
+article.format-quote  div.entry-content:before {
+    content: url('img/quote-48.png');
+    float: left;
+    width: 65px;
+}
+
+article.format-quote  div.entry-content p {
+  padding: 0; 
+  margin:0;
+  display: inline;
+  font-size: 1.5em;
+
+}
+
+article.format-quote  div.entry-content{
+  overflow: overlay;
+}
+
+
+
+
+article.format-quote  div.entry-summary:before {
+    content: url('img/quote-48.png');
+    float: left;
+    width: 65px;
+}
+
+article.format-quote  div.entry-summary p {
+  padding: 0; margin:0;    display: inline; 
+  font-size: 1.5em;
+}
+
+
+article.format-quote div.entry-content p.quote-credit {
+font-style: italic;
+text-align: right;
+display: inline-block;
+text-align: right;
+float: none;
+display: block;
+font-size: 1.2em;
+}
+article.format-quote div.entry-summary p.quote-credit {
+font-style: italic;
+text-align: right;
+display: inline-block;
+text-align: right;
+float: none;
+display: block;
+font-size: 1.2em;
+}
+
+
+article.format-quote div.entry-summary p.quote-credit:before {
+    content: "- ";
+}
+
+article.format-quote div.entry-content p.quote-credit:before {
+    content: "- ";
+}
+
+
+article.format-quote  div.entry-summary{
+  overflow: overlay;
+}
+
+
+
+hgroup a {
+	font-size: 44px;
+	font-family: 'Architects Daughter';
+	text-shadow: .1px 1px 2px #ccc;
+}
+
+.entry-header .entry-title {
+	font-size: 26px;
+	font-family: 'Architects Daughter';
+}
+
+.widget-area .widget p.widget-title {
+	font-family: 'Architects Daughter';
+}
+
+.edit-link a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.edit-link:hover {
+	background-color: orange;
+}
+
+.edit-link:hover a {
+	color: #000;
+}
+
+.googleMeta {display: none;}
+
+
+
+/* HBA1C Widget */
+
+#widget_hba1c{width:100px;text-align:center;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;background-color:#849f27;color:#fff;font-size:20px;margin:0 auto; padding: 0.5em 0.3em;}  #widget_hba1c_hb{font-size:1.8em; padding: 0.2em 0;}  #widget_hba1c_date{font-size:0.5em}
+
+
+
+
+hgroup a {
+	font-size: 44px;
+	font-family: 'Architects Daughter', inherit;
+	text-shadow: .1px 1px 2px #ccc;
+}
+
+.entry-header .entry-title {
+	font-size: 26px;
+	font-family: 'Architects Daughter', inherit;
+}
+
+.widget-area .widget p.widget-title {
+	font-family: 'Architects Daughter', inherit;
+}
+
+.edit-link a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.edit-link:hover {
+	background-color: orange;
+}
+
+.edit-link:hover a {
+	color: #000;
+}
+
+body.single .googleMeta {
+	display: none;
+}
+
+.seriesmeta {
+	background-color: #F7F7F7;
+	font-size: 1em;
+	margin-bottom: .5em;
+	display: inline;
+}
+
+li.serieslist-li, li.serieslist-li-current {
+	margin: 0 0 0 12px;
+	padding: 0;
+}
+
+ul.serieslist-ul {
+	list-style-type: decimal;
+}
+
+.seriesbox br {
+	display: none;
+}
+
+.seriesbox a[class^="series"] {
+	display: none;
+}
+
+.seriesbox {
+	display: none;
+}
+
+.ir {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	width: 0;
+}
+
+.irib{
+display: inline-block;
+}
+
+.themonic-logo img {
+	max-width: 320px;
+	width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+	aside#tag_cloud-2, aside#rss-2, aside#text-2, aside#text-4 {
+		display: none;
+	}
+}
+
+.themonic-logo img {
+  height: auto;
+}
+
+	
+		#stwitter {background-color: #55acee}
+		#sfacebook {background-color: #3b5998}
+    #sinstagram {background-color: #e1306c}
+		#srss {background-color: #FA9B39}
+		
+		.socialmedia > span {
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 2px;
+  margin-left: 10px;
+  
+  
+}
+.socialmedia a {
+  padding: 0 5px;
+  padding: 1px 5px;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+
+}
+	
+.socialmedia > span > a > span {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}
+.socialmedia {width: 40%; }
+
+article h2 {
+    font-family: 'Architects Daughter';
+    font-weight: 400;
+}
+
+.entry-content blockquote.twitter-tweet,
+.comment-content blockquote.twitter-tweet {
+    border-left: 4px solid #55acee;
+    border-right: 4px solid #55acee;
+}
