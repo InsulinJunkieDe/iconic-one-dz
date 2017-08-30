@@ -267,3 +267,64 @@ article h2 {
     border-left: 4px solid #55acee;
     border-right: 4px solid #55acee;
 }
+
+
+/*
+Willkommen bei Individuelles CSS
+
+Wie es funktioniert, steht unter http://wp.me/PEmnE-Bt
+*/
+a.partner:after {
+	content: " (Partnerlink)";
+	font-size: .8em;
+	vertical-align: top;
+}
+
+img.pt-cv-thumbnail {
+    width: 100%;
+}
+
+h2.pt-cv-title {
+    font-size: 20px;
+    font-family: 'Architects Daughter';
+	color: #000;
+}
+
+h2.pt-cv-title a {
+    color: #444444;
+    text-decoration: none;
+	font-weight: 500;
+}
+.pt-cv-wrapper .btn-success {
+    color: #fff;
+    background-color: #16A1E7;
+    border-color: #16A1E7;
+}
+.site-header {
+border: none;
+}
+.themonic-nav {
+box-shadow: none;
+}
+.wrapper {border: none;
+}
+.site-content article {
+	border: none;
+}
+.pt-cv-content-item {
+    padding-bottom: 30px;
+}
+@media screen and (min-width: 960px)
+{body {
+    background-color: #fafafa;
+}
+}
+@media screen and (min-width: 768px) {
+	.site-content {
+    border-right: 1px solid #ededed;
+	}
+.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul {
+    background-color: transparent;
+     border-top: 0px
+	}
+}
