@@ -232,6 +232,11 @@ display: inline-block;
     #sinstagram {background-color: #e1306c}
 		#srss {background-color: #FA9B39}
 
+    #stwitter:hover {background-color: #489fe1}
+		#sfacebook:hover {background-color: #2e4c8b}
+    #sinstagram:hover {background-color: #d4235f}
+		#srss:hover {background-color: #ed8e2c}
+
 		.socialmedia > span {
   color: white;
   display: inline-block;
