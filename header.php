@@ -61,9 +61,6 @@
 		</div>
 <?php if( get_theme_mod( 'iconic_one_social_activate' ) == '1') { ?>
 		<div class="socialmedia">
-<?php
-	$sstats = unserialize(file_get_contents(get_stylesheet_directory().'/socialstats.cache'));
-?>
 <span id="sfacebook">
 	<a title="InsulinJunkie@Facebook" rel="nofollow"  href="<?php echo get_theme_mod( 'facebook_url', 'default_value' ); ?>" target="_blank" onclick="window.open('/likeme', '', 'width=320, height=320'); return false;">
 		<i class="fa fa-facebook fa-2x"></i>
